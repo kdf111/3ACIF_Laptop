@@ -4,6 +4,13 @@ public class Laptop
     private int kosten;
     private boolean neu;
     
+    public Laptop(String neuHersteller, int neuKosten, boolean neuNeu)
+    {
+        setHersteller(neuHersteller);
+        setKosten(neuKosten);
+        setNeu(neuNeu);
+    }
+    
     public void setHersteller(String neuHersteller)
     {
         hersteller = neuHersteller;
